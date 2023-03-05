@@ -1,0 +1,9 @@
+source:
+  file: example.xlsx
+  cells:
+  - descriptor: Value1
+    x: 1
+    y: 1
+  - descriptor: Value2
+    x: 1
+    y: 2
