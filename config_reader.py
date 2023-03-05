@@ -24,4 +24,4 @@ def get_cells() -> list:
     with open(CONFIG_PATH, 'r') as file:
         config = yaml.safe_load(file)
         cells_input = config['source']['cells']
-        return [cell(i['descriptor'], i['x'], i['y']) for i in cells_input]
+        return [cell(i['descriptor'], i['row'], i['col']) for i in cells_input]
